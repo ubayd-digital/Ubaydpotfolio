@@ -1,0 +1,781 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: whitesmoke;
+}
+
+
+.mobilen {
+    width: 100%;
+    height: 20vh;
+    background-color: #2D003F;
+    display: none;
+}
+
+.firstnav {
+    display: flex;
+    gap: 33rem;
+    background-color: #2D003F;
+    width: 100%;
+    height: 15vh;
+    position: fixed;
+}
+
+.nav {
+    display: flex;
+    gap: 25rem;
+    width: 100%;
+    height: 60px;
+    align-items: center;
+    justify-content: left;
+    margin-top: 20px;
+    padding-left: 50px;
+    padding-right: 20px;
+}
+
+.navimg {
+    width: 20rem;
+}
+
+.nav-a {
+    display: flex;
+    gap: 1rem;
+    text-decoration: none;
+}
+
+.nav-a a {
+    text-decoration: none;
+    font-size: 18px;
+    font-family: poppins;
+    color: #fff;
+}
+
+.nav-a a:hover {
+    color: #bf87ec;
+}
+
+.nav-a a:focus {
+    color: #bf87ec;
+}
+
+
+.firsthero {
+    display: flex;
+    width: 100%;
+    background-image: linear-gradient(to right, #2d003f00, rgba(100, 44, 145, 0.477)), url(image.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.hero {
+    width: 100%;
+    /* height: 100vh; */
+    padding: 200px 50px;
+}
+
+.hero-img {
+    width: 100%;
+    height: 100vh;
+
+}
+
+.hero h1 {
+    color: #fff;
+    font-size: 70px;
+    font-family: Ubuntu condensed;
+    animation: slidein 2s ease 1;
+}
+
+
+@keyframes slidein {
+    0% {
+        transform: translateX(-90%);
+    }
+
+    100% {
+        transform: translateX(0%);
+    }
+}
+
+
+.hero p {
+    color: #fff;
+    font-size: 18px;
+    font-family: sora;
+}
+
+.hero span {
+    color: #bf87ec;
+    font-size: 80px;
+    font-family: Ubuntu condensed;
+}
+
+.hero button {
+    color: #2D003F;
+    background-color: #bf87ec;
+}
+
+.About {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 50px;
+    width: 100%;
+}
+
+.About span {
+    color: #2D003F;
+    font-family: ubuntu condensed;
+    font-size: 26px;
+}
+
+.About h2 {
+    color: #2D003F;
+    font-family: ubuntu condensed;
+    font-size: 30px;
+}
+
+.About p {
+    color: #2D003F;
+    font-family: poppins;
+    font-size: 16px;
+    line-height: 30px;
+}
+
+.About-img {
+    width: 50%;
+    padding: 20px 5px;
+}
+
+.About-img img {
+    width: 75%;
+    border-radius: 20px;
+}
+
+.About-con {
+    width: 50%;
+}
+
+button {
+    background-color: #2D003F;
+    color: #fff;
+    width: 150px;
+    height: 50px;
+    border: none;
+    border-radius: 30px;
+    font-family: sora;
+    font-size: 20px;
+}
+
+button a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.services {
+    gap: 5rem;
+    padding-top: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #642C91;
+    width: 100%;
+    height: 100vh;
+}
+
+.services h2 {
+    color: #fff;
+}
+
+.services button {
+    margin-bottom: 100px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    width: 150px;
+}
+
+.boxser {
+    width: 30%;
+    height: 48vh;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    gap: 0.5rem;
+    border-radius: 30px;
+    padding: 2.6rem;
+
+}
+
+.boxser h2 {
+    font-family: ubuntu condensed;
+    color: #2D003F;
+    font-size: 30px;
+}
+
+.boxser p {
+    font-family: poppins;
+    color: #2D003F;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.nextser {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    gap: 5rem;
+    justify-content: center;
+    padding: 0px 30px;
+}
+
+.portfolio {
+    width: 100%;
+    padding: 100px 50px;
+
+}
+
+.portfolio h2 {
+    font-family: ubuntu condensed;
+    color: #642C91;
+    font-size: 30px;
+    margin-bottom: 1rem;
+}
+
+.portfolio p {
+    color: #2D003F;
+    font-family: poppins;
+    font-size: 20px;
+    margin-bottom: 2rem;
+}
+
+.portfolio button {
+    margin-top: -30px;
+    padding: 10px 0px 10px 0px;
+}
+
+
+
+.ports {
+    width: 30%;
+    margin-top: 20px;
+}
+
+.portp {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    gap: 4rem;
+    margin-bottom: 2rem;
+}
+
+.vid {
+    display: flex;
+    gap: 2rem;
+}
+
+
+.port {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    background-color: #2D003F;
+}
+
+.port a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer {
+    margin-top: 10px;
+    padding: 4rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+    width: 100%;
+    background-image: linear-gradient(to top left, #642C91, #2D003F);
+}
+
+.com {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    gap: 0.6rem;
+}
+
+.name {
+    width: 100%;
+    height: 50vh;
+}
+
+
+.name h2 {
+    color: #fff;
+    font-family: ubuntu condensed;
+    font-size: 20px;
+}
+
+li {
+    color: #bf87ec;
+    font-size: 1rem;
+    font-family: poppins;
+    list-style-type: none;
+    line-height: 2rem;
+}
+
+.name p {
+    color: #bf87ec;
+    font-size: 1rem;
+    font-family: poppins;
+    list-style-type: none;
+    line-height: 2rem;
+}
+
+.nam {
+    width: 50%;
+    height: 50vh;
+}
+
+
+.nam h2 {
+    color: #fff;
+    font-family: ubuntu condensed;
+    font-size: 20px;
+}
+
+.nam p {
+    color: #bf87ec;
+    font-size: 1rem;
+    font-family: poppins;
+    list-style-type: none;
+    line-height: 2rem;
+}
+
+.hr {
+    gap: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: -3rem;
+}
+
+hr {
+    width: 90%;
+}
+
+.hr p {
+    color: #fff;
+    font-size: 20px;
+}
+
+
+/*-------------- aboutpage ---------------*/
+
+.aboutpage {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 100px 50px;
+
+}
+
+.aboutpage h2 {
+    color: #2D003F;
+    font-family: ubuntu condensed;
+}
+
+.aboutpagecon {
+    width: 50%;
+    text-align: justify;
+    padding: 3rem;
+}
+
+.aboutpagecon p {
+    font-size: 0.9rem;
+    font-family: poppins;
+}
+
+.aboutpageimg {
+    width: 50%;
+    /* height: 50vh; */
+    overflow: hidden;
+}
+
+
+.our {
+    width: 100%;
+    display: flex;
+    gap: 1rem;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3rem;
+}
+
+.vision {
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5rem;
+    background-color: #2D003F;
+    width: 80%;
+    height: 35vh;
+    padding: 3rem;
+    text-align: center;
+}
+
+.vision h3 {
+    font-family: ubuntu condensed;
+    font-size: 1.5rem;
+    color: #bf87ec;
+}
+
+.vision p {
+    font-family: poppins;
+    font-size: 1rem;
+    color: #fff;
+}
+
+.mission {
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5rem;
+    background-color: #bf87ec;
+    width: 80%;
+    height: 35vh;
+    padding: 3rem;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.mission h3 {
+    font-family: ubuntu condensed;
+    font-size: 1.5rem;
+    color: #2D003F;
+}
+
+.mission p {
+    font-family: poppins;
+    font-size: 1rem;
+    color: #fff;
+}
+
+.aproach {
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5rem;
+    background-color: #2D003F;
+    width: 80%;
+    height: 35vh;
+    padding: 3rem;
+    text-align: center;
+}
+
+.aproach h3 {
+    font-family: ubuntu condensed;
+    font-size: 1.5rem;
+    color: #bf87ec;
+}
+
+.aproach p {
+    font-family: poppins;
+    font-size: 1rem;
+    color: #fff;
+}
+
+.whoare {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    gap: 4rem;
+}
+
+.whoare h2 {
+    font-family: ubuntu condensed;
+    color: #642C91;
+    display: inline;
+}
+
+.whoare p {
+    font-family: poppins;
+    color: #642C91;
+}
+
+
+/* -----------services page---------------- */
+
+.firstservice {
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 90vh;
+    gap: 1rem;
+}
+
+.firstservice h3 {
+    color: #642C91;
+}
+
+.textser {
+    text-align: center;
+}
+
+.textser h3 {
+    font-family: ubuntu condensed;
+    color: #642C91;
+    font-size: 2rem;
+}
+
+
+.servholder {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    gap: 2rem;
+}
+
+.web {
+    padding: 1rem;
+    gap: 1rem;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 25%;
+    height: 55vh;
+    background-color: #642C91;
+}
+
+.web h2 {
+    font-family: ubuntu condensed;
+    color: #bf87ec;
+}
+
+.web p {
+    font-family: poppins;
+    color: #fff;
+}
+
+.webd {
+    padding: 1rem;
+    gap: 1rem;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 25%;
+    height: 55vh;
+    background-color: #bf87ec;
+}
+
+.webd img {
+    width: 7rem;
+}
+
+.webd h2 {
+    font-family: ubuntu condensed;
+    color: #642C91;
+}
+
+.webd p {
+    font-family: poppins;
+    color: #fff;
+}
+
+
+@media(max-width:600px) and (min-width:200px) {
+    .nav-a {
+        display: none;
+
+    }
+
+    .mobilen {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 19rem;
+    }
+
+    .mlogo {
+        width: 200px;
+    }
+
+    .firstnav {
+        height: 15vh;
+        position: relative;
+        display: none;
+    }
+
+    .nav img {
+        width: 10rem;
+    }
+
+    .hero {
+        padding: 100px 50px;
+    }
+
+    .hero h1 {
+        font-size: 50px;
+    }
+
+    .hero span {
+        font-size: 55px;
+    }
+
+    .hero p {
+        font-size: 16px;
+    }
+
+    .About {
+        flex-direction: column;
+    }
+
+    .About p {
+        font-size: 20px;
+
+    }
+
+    .About-con {
+        margin-top: 3rem;
+        width: 100%;
+        display: flex;
+        gap: 1rem;
+        flex-direction: column;
+        align-items: center;
+        text-align: justify;
+        font-size: 0.8rem;
+    }
+
+    .About-img img {
+        width: 100%;
+
+    }
+
+    .About-img {
+        width: 100%;
+    }
+
+    .nextser {
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+    .boxser {
+        width: 100%;
+        height: 40vh;
+        padding: 2rem;
+        text-align: left;
+    }
+
+    .boxser p {
+        font-size: 1rem;
+    }
+
+    .services {
+        height: 160vh;
+    }
+
+    .services button {
+        margin-top: 1rem
+    }
+
+    .portp {
+        flex-direction: column;
+    }
+
+    .ports {
+        width: 100%;
+    }
+
+    .vid {
+        flex-direction: column;
+    }
+
+    .footer {
+        flex-direction: column;
+        gap: 6rem;
+    }
+
+    .com {
+        margin-top: -6rem;
+    }
+
+    .name {
+        width: 100%;
+    }
+
+    .name p {
+        font-size: 0.8rem;
+    }
+
+    .nam {
+        width: 100%;
+    }
+
+    .nam p {
+        font-size: 0.8rem;
+    }
+
+    .hr {
+        margin-top: -4rem;
+    }
+
+    .aboutpage {
+        flex-direction: column;
+    }
+
+    .aboutpagecon {
+        width: 100%;
+    }
+
+    .aboutpageimg {
+        width: 100%;
+    }
+
+    .vision {
+        padding: 1rem;
+        width: 90%;
+
+    }
+
+    .mission {
+        padding: 1rem;
+        width: 90%;
+
+    }
+
+    .aproach {
+        padding: 1rem;
+        width: 90%;
+
+    }
+
+    .our p {
+        font-size: 0.8rem;
+
+    }
+}
